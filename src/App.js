@@ -1,15 +1,9 @@
-import React from "react";
-
-
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./Component/Navbar";
 
 export default function App() {
   return (
-    <div>
-      Hello word
-    </div>
-    
-  
-   
+    <Navbar />
+      
   );
 }
