@@ -1,0 +1,29 @@
+/******font*****/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;}
+
+
+/********navbar******/
+.logo{
+    width:50px;
+    
+
+}
+
+/*---------menu-------*/
+nav a.nav-link{
+font-weight: 600;
+letter-spacing: 0.6px;
+cursor: pointer;
+}
+
+nav ul li{
+    text-transform: uppercase;
+}
+
+
+.navbar-nav> 
