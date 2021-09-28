@@ -13,6 +13,7 @@ body{
 /********navbar******/
 .logo{
     width:60px;
+    border-radius: 50%;
     
 
 }
@@ -59,7 +60,7 @@ margin-left: 20px;
  
 }
 
-.navbar-nav >li>a:hover{
+.navbar-nav > li > a:hover{
     border-top: 3px solid orange !important;
 
 }

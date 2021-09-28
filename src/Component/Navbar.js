@@ -1,6 +1,10 @@
 import React from "react";
 import pic from "../pic.jpg";
 import "../App.css";
+///font aswomw//
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars} from "@fortawesome/free-solid-svg-icons";
+
 
 function Navbar() {
     return (
@@ -8,7 +12,7 @@ function Navbar() {
 <div className="container">
         <a className="navbar-brand" href="#"><img className="logo" src={pic} alt="pic..."/></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
+<FontAwesomeIcon icon={faBars} style={{color:"#fff"}} />
         </button>
       
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
