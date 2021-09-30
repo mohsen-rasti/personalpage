@@ -7,7 +7,8 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;}
+    font-family: 'Roboto', sans-serif;
+}
 
 
 /********navbar******/
@@ -63,4 +64,81 @@ margin-left: 20px;
 .navbar-nav > li > a:hover{
     border-top: 3px solid orange !important;
 
+}
+
+
+/***********Header*****/
+.header-weaper{
+    position: relative;
+    background: url(./back.jpg);
+    background-size: cover;
+    background-position:center ;
+    height: 90vh;
+}
+
+.main-info{
+    display: flex;
+    position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-info h1{
+    color:orange;
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+
+@media(max-width:768px){
+    .main-info h1{
+        font-size: 1.2rem !important;
+    }
+    .typed-text{
+        font-size: 1rem !important;
+    }
+}
+
+/******tyoed text***/
+.typed-text{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+/******Header btn-main-offe ***/
+.btn-main-offer{
+border: 1px solid #f33501;
+text-transform: uppercase;
+text-transform: unset;
+border-radius: 0;
+padding: 10px 12px 12px 12px;
+color: #fff;
+font-weight: 800;
+font-size: 1.1rem;
+text-decoration: none;
+margin-top: 2rem;
+background-color: transparent;
+
+}
+
+.btn-main-offer:hover{
+    text-decoration: none;
+    background-color: orangered;
+    color: #fff;
+    transition: .2s ease-in-out;
+}
+
+
+@media(max-width:768px){
+    .main-info h1{
+        font-size: 1.2rem !important;
+    }
 }
